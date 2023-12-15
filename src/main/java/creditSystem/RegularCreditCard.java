@@ -12,12 +12,11 @@ public class RegularCreditCard {
 
 
 
-    public RegularCreditCard(String account) {
+    public  RegularCreditCard(String account) {
 
         this.account = account;
         list = new ArrayList<Item>();
         this.num = 0;
-        this.id = 2;
 
         System.out.println("A regular credit card account is made with the name " + account);
 
@@ -25,15 +24,35 @@ public class RegularCreditCard {
     }
         public void add(Item purchase) {
             list.add(purchase);
-            System.out.println(account + " purchased " + purchase.GetName());
+            System.out.println(account + " purchased " + purchase.getName());
 
 
     }
-        public String purchasedItem(Item) {
-            account
-            return list.GetName();
+    public double rewardPoints() {
 
+        double totalcost = 0;
+        for (int i = 0; i < list.size(); i++) {
+            totalcost += list.get(i).getCost();
 
+        }
+        return totalcost;
+    }
+
+    public String toString() {
+        String t = null;
+        for(int i = 0; i < list.size(); i++){
+            t = list.get(i).getName();
+        }
+        return "[" + t + "]";
     }
 }
+//        public purchasedItem() {
+//            String x = null;
+//            for(int i = 0; i < list.size(); i++){
+//            x = list.get(i).GetName();
+//            }
+//            return x;
+//
+//    }
+//}
 

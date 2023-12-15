@@ -25,10 +25,19 @@ public class Main {
         jay.add(gold);
         bishu.add(car);
         bishu.add(xbox);
-//
-//            system.out.println(avi.rewardPoints);
-//            system.out.println(jay.rewardPoints);
-        System.out.println(Bishu.purchaseItem);
+
+        System.out.println(bishu.rewardPoints());
+        System.out.println(avi.rewardPoints());
+        System.out.println(jay.rewardPoints());
+
+        System.out.println(bishu.purchasedItems());
+
+
+
+//        System.out.println(bishu.toString());
+//        System.out.println(avi.toString());
+//        System.out.println(jay.toString());
+
 
 
     }
