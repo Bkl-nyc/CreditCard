@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="29f99498-58b0-4a2e-b19d-9a3f1af74883" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creditSystem/DiamondCreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creditSystem/DiamondCreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creditSystem/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creditSystem/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creditSystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creditSystem/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creditSystem/Purchase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creditSystem/RegularCreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creditSystem/RegularCreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creditSystem/rewardPoints.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
